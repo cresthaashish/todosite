@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+    scroll-behavior: smooth;
+
+
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 15px 100px; */
+    border-top: 4px solid #23bddb;
+    border-bottom: 1px solid #c5cfd1;
+    align-items: center;
+}
+
+
+/* .heading .nav li{
+    list-style: none;
+}
+.heading .nav ul{
+    display: flex;
+}
+.heading .nav a{
+    text-decoration: none;
+    padding: 0 10px;
+} */
+.navul{
+    padding-top: 3px;
+
+}
+
+.navul li a{
+    text-decoration: none;
+    color: #474646;
+}
+
+.navlink{
+    padding: 10px;
+
+}
+/* .navclass{
+    position: absolute;
+    top: 80%;
+    background-color: white;
+    font-size: 12px;
+    height: 136px;
+
+} */
+/* .nav{
+    height: 56px;
+    width: 86px;
+}
+ */ .foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #5dbafc;
+    color: white;
+    padding: 35px;
+ }
+
+  .foot li{
+    list-style: none;
+ }
+
+  .foot li a{
+    text-decoration: none;
+    color: white;
+ }
+ .navlink li i{
+    display: none;
+ }
+.navlink:hover > li i{
+    display: block;
+
+}
+
+.navlink li{
+    position: relative;
+}
+
+.all .nav{
+    padding-top: 24px;
+}
+
+.icon{
+    position: absolute;
+    bottom: 25px;
+    left: calc(50% - 8px);
+}
+
+.banner-contact{
+    background-color: #eb073c;
+    color: white;
+}
+
+.banner-contact h3{
+    font-size: 47px;
+    padding: 12px 182px;
+
+}
+
+.foot h5{
+    font-size: 15px;
+}
+
+.foot ul{
+    font-size: 14px;
+}
+
+/* Services Content */
+/* 
+.row1 figure img{
+    width: 110px;
+}
+
+.row1 figure{
+    text-align: center;
+}
+
+.col1{
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+}
+
+.col1:hover figure figcaption, .col1:hover{
+    color: red;
+    border-color: red;
+}
+
+.col1 figure figcaption{
+    margin-bottom: -16px;
+    text-decoration: none;
+}
+
+
+.col11 figure img, .col33 figure img, .col44 figure img, .col55 figure img, .col66 figure img{
+    padding-bottom: 24px;
+}
+
+.contain{
+    margin: 81px 0;
+}
+
+.col1 a{
+
+    color: black;
+}
+ */
+
+/* .contain ul{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.contain figure img{
+    width: 110px;
+}
+
+.contain figure{
+    text-align: center;
+}
+
+.contain li figure{
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+}
+
+.col1 figure img{
+    padding-bottom: 24px;
+}
+
+.contain{
+    margin: 33px 0;
+}
+
+.contain div ul > li figure:hover{
+    color: red;
+    border-color: red;
+
+}
+
+.contain ul li a{
+    text-decoration: none;
+}

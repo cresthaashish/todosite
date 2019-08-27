@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: newfont;
+	src: url("Lexend_Mega/LexendMega-Regular.ttf");
+}
+
+.text_shadow p{
+	font-family: newfont;
+	column-count:3 ;
+	column-gap: 20px;
+	column-rule: 1px solid gray;
+	text-align: justify;
+ }
+
+ @font-face{
+ 	font-family: bolder;
+	src: url("Livvic/Livvic-Bold.ttf");
+
+ }
+
+ body h1{
+	font-family: bolder;
+	text-align: center;
+	padding-top: 20px;
+
+ }
+
+ .image figure{
+    text-align: center;
+    width: 280px;
+    box-shadow: 2px 2px 5px darkgrey;
+    text-shadow: 2px 2px 1px dimgrey;
+    color: darkgreen;
+    margin: 0 auto;
+ }
+
+ .image figure figcaption{
+ 	font-family: bolder;
+ 	padding: 20px;
+ }
+
+ .image{
+ 	margin: 20px 0;
+ }
+
+  .image figure:hover{
+    box-shadow: 0px 10px 3px gray;
+    text-shadow: 5px 5px 3px purple;
+    color: #40cfd6;
+
+}
+
+.text_shadow{
+	padding: 0 20px;
+}

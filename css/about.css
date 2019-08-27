@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+    scroll-behavior: smooth;
+
+
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 15px 100px; */
+    border-top: 4px solid #23bddb;
+    border-bottom: 1px solid #c5cfd1;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+}
+.nav ul{
+    display: flex;
+}
+.nav a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+/* .navclass{
+    position: absolute;
+    top: 80%;
+    background-color: white;
+    font-size: 12px;
+    height: 136px;
+
+} */
+/* .nav{
+    height: 56px;
+    width: 86px;
+}
+ */ .foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #5dbafc;
+    color: white;
+    padding: 35px;
+ }
+
+  .foot li{
+    list-style: none;
+ }
+
+  .foot li a{
+    text-decoration: none;
+    color: white;
+ }
+ .navlink li i{
+    display: none;
+ }
+.navlink:hover > li i{
+    display: block;
+
+}
+
+.navlink li{
+    position: relative;
+}
+
+.all .nav{
+    padding-top: 24px;
+}
+
+.icon{
+    position: absolute;
+    bottom: 25px;
+    left: calc(50% - 8px);
+}
+
+.banner-contact{
+    background-color: #eb073c;
+    color: white;
+}
+
+.banner-contact h3{
+    font-size: 47px;
+    padding: 20px 182px;
+
+}
+
+.foot h5{
+    font-size: 15px;
+}
+
+.foot ul{
+    font-size: 14px;
+}
+
+/* About Us Content */
+
+.bodysection{
+    /* height: 358px; */
+    width: 632px;
+    margin: 80px 0px 80px 200px;
+}
+
+.bodysection ul{
+    padding-left: 40px;
+}
+
+.bodysection ul li p{
+    color: #5dbafc;
+    margin: -5px 0;
+}
+
+.bodysection ul li p span{
+    color: black;
+}
+
+.bodysection p{
+    line-height: 2;
+}
+
+.bodysection p span{
+    color: #5dbafc;
+}
+
